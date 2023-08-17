@@ -1,0 +1,63 @@
+body{
+    font-family: 'Shadows Into Light', cursive;
+    margin :  2%;
+    background-color: rgb(193, 250, 231);
+}
+.style{
+    font: bold;
+    text-align: center;
+    color: rgb(249, 251, 255);
+   
+}
+.hader{
+    text-align: center;
+    background-color: green; 
+    padding: 1px 0px 1px 0px;
+    
+}
+.navigation{
+    text-align: center;
+    background-color: rgb(84, 155, 208); 
+    padding: 1px 0px 1px 0px;
+    margin: 20px 0 0 0 ;
+
+}
+.box{
+    width: auto;
+}
+.container{
+    display: flex;
+    /* gap: 0.5em; */
+    flex-grow: 1;
+}
+.container-2{
+    display: grid;
+    /* gap: 0.5em; */
+}
+#c-1{
+    background-color: rgb(219, 182, 223);
+    text-align: center;
+    padding: 5cm 3cm 5cm 3cm;
+    flex-grow: 1;
+    margin: 20px 20px 0 0px;
+}
+#c-2{
+    background-color: rgb(223, 190, 182);
+    text-align: center;
+    padding: 5cm 10cm 5cm 10cm; 
+    grid-column: 50;
+    margin: 20px 0px 0px 0px;
+}
+#c-3{
+    background-color: rgb(182, 205, 223);
+    text-align: center;
+    padding: 5cm 14cm 5cm 14cm;
+    grid-column: 50;
+    margin: 20px 0px 0px 0px;
+}
+footer{
+    text-align: center;
+    background-color: green; 
+    padding: 1px 0px 1px 0px;
+    margin-top: 20px;
+}
